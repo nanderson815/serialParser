@@ -52,7 +52,7 @@ const parseXML = (string) => {
 
     let xml = string.join('').substr(1)
     parseString(xml, function (err, result) {
-        console.dir(result.UploadDataDump.SessionDataArray[0]);
+        console.dir(JSON.stringify(result));
     });
 }
 

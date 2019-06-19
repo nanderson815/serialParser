@@ -45,6 +45,8 @@ handShake.then((val) => {
 
 
 
+
+
 const parseXML = (string) => {
     // console.log(string);
 
